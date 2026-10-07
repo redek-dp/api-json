@@ -1,24 +1,40 @@
-## Deploy JSON Server to Vercel
+<img src="https://github.githubassets.com/assets/actions-any-lang-f603eeb8cd45.svg" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
-A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
+# API-JSON.
 
-Demo from this repository: 
+``API-JSON`` - DEPLOY JSON SERVER TO VERCEL...
 
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
+----------
 
-![Powered by Vercel](https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg)
+A TEMPLATE TO DEPLOY ``JSON SERVER`` TO ``VERCEL``, ALLOW YOU TO RUN FAKE REST API ONLINE!
 
-### How to use
+----------
 
-1. Click "**Use this template**" or clone this repository.
-2. Update or use the default [`db.json`](./db.json) in the repository.
-3. Sign Up or login into [Vercel](https://vercel.com).
-4. From the Vercel dashboard, click "**+ New Project**" then "**Import**" your repository.
-5. In the "**Configure Project**" screen, leave everything default and click "**Deploy**".
-6. Wait until deployment is done, and your own JSON server is ready to serve!
+## DEMO FROM THIS REPOSITORY
 
-## Default `db.json`
+```bash
+https://api-json-roan.vercel.app/
+```
+--------
+
+### OU
+
+```bash
+https://api-json-roan.vercel.app/api/posts
+```
+
+--------
+
+### COMO USAR
+
+1. CLIQUE EM "**USE THIS TEMPLATE**" OU CLONE ESTE REPOSITÓRIO.
+2. ATUALIZE OU UTILIZE O ARQUIVO [`DB.JSON`](./DB.JSON) PADRÃO DO REPOSITÓRIO.
+3. CADASTRE-SE OU FAÇA LOGIN NA [VERCEL](HTTPS://VERCEL.COM).
+4. NO PAINEL DA VERCEL, CLIQUE EM "**+ NEW PROJECT**" E, EM SEGUIDA, EM "**IMPORT**" PARA IMPORTAR SEU REPOSITÓRIO.
+5. NA TELA "**CONFIGURE PROJECT**", MANTENHA AS CONFIGURAÇÕES PADRÃO E CLIQUE EM "**DEPLOY**".
+6. AGUARDE A CONCLUSÃO DO DEPLOY E SEU SERVIDOR JSON ESTARÁ PRONTO PARA USO!
+
+## PADRÃO `db.json`
 
 ```json
 {
@@ -32,14 +48,11 @@ Demo from this repository:
 }
 ```
 
-## Enable write operations
+## HABILITAR OPERAÇÕES DE ESCRITA
 
-By default, only GET operation is allowed, thanks to the contribution by [@VicAv99](https://www.github.com/VicAv99) at [#6](https://github.com/kitloong/json-server-vercel/issues/6), we can now enable write operations as well.
+VOCÊ PODE ENCONTRAR O CÓDIGO DE EXEMPLO EM [`API/SERVER.JS`](./API/SERVER.JS).
 
-You can find the example code in [`api/server.js`](./api/server.js).
-
-## Reference
+## REFERÊNCIA
 
 1. https://github.com/typicode/json-server
 2. https://vercel.com
-3. https://shadowsmith.com/how-to-deploy-an-express-api-to-vercel
